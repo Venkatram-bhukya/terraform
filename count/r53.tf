@@ -1,4 +1,4 @@
-resource "aws_route53_record" "www" {
+resource "aws_route53_record" "www_dev" {
   count = 10
   zone_id = var.zone_id
   # interpolation
@@ -8,7 +8,7 @@ resource "aws_route53_record" "www" {
   records = [aws_instance.example[count.index].private_ip]
 }
 
-# roboshop.daws88s.online -> public_ip
+# roboshop.daws20s.online -> public_ip
 # As part of functions
 resource "aws_route53_record" "www" {
   zone_id = var.zone_id

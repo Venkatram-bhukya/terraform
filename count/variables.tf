@@ -5,7 +5,7 @@ variable "instances" {
 
 # replace with your zone_id and domain_name
 variable "zone_id" {
-    default = "Z05013202FKF0ZL12WAOP"
+    default = "Z0186752UQ0KCUG32F05"
 }
 
 variable "domain_name" {

@@ -1,5 +1,5 @@
-ec2_output = {
-  "mongodb" = {
+{
+ "mongodb" = {
     "ami" = "ami-0220d79f3f480ecf5"
     "arn" = "arn:aws:ec2:us-east-1:529206289335:instance/i-0ecc25980c9e61c1d"
     "associate_public_ip_address" = true

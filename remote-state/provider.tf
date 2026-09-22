@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "remote-state-20s" # Replace with your unique bucket name
+    bucket  = "remote-state-aws-20s" # Replace with your unique bucket name
     key     = "remote-state.tfstate"
     region  = "us-east-1"
     encrypt = true
